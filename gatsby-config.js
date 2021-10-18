@@ -38,7 +38,15 @@ const plugins = [
         },
         {
           resolve: 'gatsby-remark-copy-linked-files'
-        }
+        },
+      ],
+      remarkPlugins: [
+        [
+          require("remark-admonitions"), {
+              tag: ":::",
+              icons: "svg",
+            }
+        ]
       ],
       extensions: [".mdx", ".md"]
     }
