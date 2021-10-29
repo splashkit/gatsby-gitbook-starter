@@ -14,7 +14,7 @@ export default {
   p: props => <p className='paragraph' {...props} />,
   pre: props => <pre className='pre' {...props} />,
   code: CodeBlock,
-  a: AnchorTag
+  // a: AnchorTag
   // TODO add `img`
   // TODO add `blockquote`
   // TODO add `ul`
